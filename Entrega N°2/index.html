@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script defer src="/JS/main.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Entrega N°2 - Santiago Hernan Gonzalez</title>
+</head>
+<body>
+    <h1>📝 Mis Notas</h1>
+    
+    <div class="miFomulario">
+        <input type="text" id="nota-input" placeholder="Escribe tu nota...">
+        <select id="select-categoria">
+            <option value="personal">Personal</option>
+            <option value="trabajo">Trabajo</option>
+            <option value="estudio">Estudio</option>
+        </select>
+        <button id="aniadir-button">Agregar</button>
+    </div>
+
+    <div>
+        <button id="mostrar-todo">Todas</button>
+        <button id="mostrar-personal">Personal</button>
+        <button id="mostrar-trabajo">Trabajo</button>
+        <button id="mostrar-estudio">Estudio</button>
+    </div>
+
+    <p>Total notas: <span id="total">0</span></p>
+
+    <div id="notas"></div>
+</body>
+</html>
