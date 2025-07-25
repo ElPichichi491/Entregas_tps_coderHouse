@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TOASTIFY -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script defer src="./librerias/toastify.js"></script>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    
+    <script defer src="./JS/data.js"></script>
+    <script defer src="./JS/main.js"></script>
+    <title>Entrega Final - Santiago Hernan Gonzalez</title>
+</head>
+<body>
+    <h1>📝 Mis Tareas</h1>
+    
+    <div>
+        <input type="text" id="nota-input" placeholder="Escribe tu nota...">
+        <input type="text" id="nota-descripcion" placeholder="Puede escribir descripcion">
+
+        <select id="select-categoria">
+            <option value="personal">Personal</option>
+            <option value="trabajo">Trabajo</option>
+            <option value="estudio">Estudio</option>
+        </select>
+        <button id="aniadir-button">Agregar</button>
+    </div>
+
+    <div>
+        <button id="mostrar-todo">Todas</button>
+        <button id="mostrar-personal">Personal</button>
+        <button id="mostrar-trabajo">Trabajo</button>
+        <button id="mostrar-estudio">Estudio</button>
+    </div>
+
+    <div id="contenedor-botones-modo">
+        <button id="ver-ejemplos-btn">Ver ejemplo de notas</button>
+        <button id="ver-mis-notas-btn">Ver mis notas</button>
+        <span id="modo-actual"></span>
+    </div>
+
+    <p>Total tareas: <span id="total">0</span></p>
+
+    <div id="notas"></div>
+
+    <!-- TOASTIFY -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

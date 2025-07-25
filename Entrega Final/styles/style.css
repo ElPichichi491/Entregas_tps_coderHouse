@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+select {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#contenedor-botones-modo {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
+
+#modo-actual {
+    font-weight: bold;
+    color: #666;
+    margin-left: 10px;
+}
+
+#total {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#notas {
+    margin-top: 20px;
+}
+
+#notas div {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#notas p {
+    margin: 5px 0;
+}
+
+#notas small {
+    color: #666;
+}
+
+.btn-eliminar {
+    background-color: #dc3545;
+    margin-right: 10px;
+}
+
+.btn-eliminar:hover {
+    background-color: #c82333;
+}
+
+.btn-cambiar-descripcion {
+    background-color: #28a745;
+}
+
+.btn-cambiar-descripcion:hover {
+    background-color: #218838;
+}
+
+.btn-cambiar-categoria {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.btn-cambiar-categoria:hover {
+    background-color: #e0a800;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 15px 0;
+}
+
+.mensaje-error {
+    color: #dc3545;
+    background-color: #f8d7da;
+    padding: 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.modo-ejemplo {
+    background-color: #fff3cd;
+}
+
+.modo-ejemplo #notas div {
+    background-color: #fefefe;
+    border-left: 4px solid #ffc107;
+}
+
+#calendar {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-width: 400px;
+}

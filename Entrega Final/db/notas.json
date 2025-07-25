@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "texto": "Completar mi proyecto final de CoderHouse",
+    "categoria": "estudio", 
+    "descripcion": "Implementar fetch, librerias y mas cosas",
+    "fecha": "22/7/2025"
+  },
+  {
+    "id": 2,
+    "texto": "Revisar correos pendientes",
+    "categoria": "trabajo",
+    "descripcion": "Responder emails importantes de un cliente",
+    "fecha": "22/7/2025"
+  },
+  {
+    "id": 3,
+    "texto": "Hacer ejercicio en el gimnasio",
+    "categoria": "personal",
+    "descripcion": "Rutina de pesas y cardio",
+    "fecha": "21/7/2025"
+  },
+  {
+    "id": 4,
+    "texto": "Estudiar para examen de matematicas",
+    "categoria": "estudio",
+    "descripcion": "Repasar capitulos 5 y 6 del libro",
+    "fecha": "20/7/2025"
+  }
+]
